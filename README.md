@@ -1,6 +1,9 @@
 # GameOfLife
 
-Game of Life Application
+## Media
+[Game of Life App Demo](https://youtube.com/shorts/NMT-eRCL6Uo?feature=share): Short showcase demo of my Game of Life app.
+
+## Game of Life Application
 
 This is a Game of Life simulation, an interactive implementation of the famous cellular automaton devised by John Conway. The program allows you to create and evolve patterns on a grid based on simple rules that determine the survival or death of cells from one generation to the next. The app includes customizations for grid size, cell color, timer interval, and more, making it both educational and fun.
 Features
@@ -16,7 +19,7 @@ Core Functionality
         Toroidal mode wraps the edges of the grid, creating a seamless space.
         Finite mode enforces boundaries where cells on the edges do not interact with neighbors outside the grid.
 
-Customization
+## Customization
 
     Settings Dialog:
         Modify grid size, timer interval, and cell colors (living and dead).
@@ -28,33 +31,33 @@ Customization
     Status Bar:
         Displays the current generation count and the number of living cells.
 
-Advanced Features
+## Advanced Features
 
     Pattern Importing: Load patterns from .cells files and center them on the grid.
     HUD Options:
         Show or hide gridlines.
         Toggle the neighbor count display.
 
-Responsive Grid
+## Responsive Grid
 
     Automatically adjusts to different grid sizes.
     Provides immediate visual feedback for all actions.
 
-Installation and Setup
-Prerequisites
+## Installation and Setup
+### Prerequisites
 
     C++ Development Environment: Ensure you have a compiler and IDE like Microsoft Visual Studio.
     wxWidgets: The application is built using the wxWidgets library. Install and configure wxWidgets before building.
 
-Steps to Build and Run
+### Steps to Build and Run
 
     Clone or download the repository.
     Configure your development environment to include wxWidgets.
     Open the project in your IDE and build the solution.
     Run the executable to start the simulation.
 
-How to Use
-Main Window
+## How to Use
+### Main Window
 
     Toolbar Options:
         Play, pause, clear, or step through the simulation.
@@ -63,7 +66,7 @@ Main Window
     Grid Interaction:
         Click on cells to toggle their state (alive/dead).
 
-Settings
+### Settings
 
     Access the Settings Dialog via the "Options > Change Settings" menu.
     Customize the following:
@@ -71,7 +74,7 @@ Settings
         Interval: Adjust the timer interval for automatic generation progression.
         Cell Colors: Choose colors for living and dead cells.
 
-Menu Options
+### Menu Options
 
     File:
         Import, save, or create new game boards.
@@ -80,7 +83,7 @@ Menu Options
     View:
         Show/hide neighbor counts, gridlines, or HUD.
 
-Controls
+### Controls
 
     Play: Starts the simulation.
     Pause: Stops the simulation.
@@ -88,7 +91,7 @@ Controls
     Clear: Resets the grid to all dead cells.
     Import: Loads a pattern from a .cells file.
 
-Example Patterns
+### Example Patterns
 
 Try importing popular patterns like Gliders, Oscillators, or Still Lifes to see Conway's rules in action.
 Credits
@@ -97,6 +100,6 @@ Credits
     Inspired by John Conway's Game of Life.
     Built using wxWidgets for the GUI framework.
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
